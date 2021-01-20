@@ -1,0 +1,31 @@
+.btn {
+  border-radius: 2rem;
+  background-color: aquamarine;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 8em;
+  display: block;
+}
+
+body {
+  background-color: rgb(6, 175, 175);
+}
+
+.outer {
+  background: rgb(236, 159, 64);
+}
+
+.container {
+  background: white;
+  margin-top: 2rem;
+}
+
+Table {
+  background-color: white;
+}
+
+h1 {
+  text-align: center;
+  margin: auto;
+}

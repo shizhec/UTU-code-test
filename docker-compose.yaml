@@ -1,0 +1,14 @@
+version: "3"
+
+services:
+  backend:
+    build: ./backend
+    restart: always
+    ports:
+      - "5000:5000"
+
+  frontend:
+    build: ./crypto-analyser
+    restart: always
+    ports:
+      - "3000:3000"
